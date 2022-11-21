@@ -1,9 +1,11 @@
 .wrap {
-    margin: 0 auto;
+    margin: 0 auto;    
+    max-width: 30rem;
+    height: 40rem;
 }
 .chat-content { 
-    height: 350px;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     display: flex;
@@ -32,8 +34,8 @@
 
 .img {
     font-size: 0;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
     background-color: aliceblue;
 }
