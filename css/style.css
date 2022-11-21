@@ -1,7 +1,18 @@
+.wrap {
+    margin: 0 auto;
+}
 .chat-content { 
     height: 350px;
-    overflow-y: scroll;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column-reverse;
 }
+
+.chat-content::-webkit-scrollbar{width:0.5rem;border-radius:0.5rem;} 
+.chat-content::-webkit-scrollbar-thumb{background-color:#aaa;border-radius:0.5rem;} 
+/* .chat-content::-webkit-scrollbar-track{border-radius:0.5rem; background-color: #eee;}  */
 
 .line { 
     margin-top: 10px; 
@@ -9,11 +20,20 @@
 }
 
 .chat-box {
-    background-color: #eee; 
-    padding: 5px;
-    max-width: 200px;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    max-width: 60vw;
 }
 
 .mine {
     margin-left: auto;
+}
+
+.img {
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
 }
