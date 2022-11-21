@@ -1,6 +1,6 @@
 .wrap {
     margin: 0 auto;    
-    max-width: 30rem;
+    max-width: 100%;
     height: 40rem;
 }
 .chat-content { 
